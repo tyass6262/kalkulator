@@ -1,0 +1,29 @@
+name: kalkulator
+description: A new Flutter project.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  expressions: ^0.2.5+2
+  flutter_native_splash: ^2.4.1
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#ffffff"
+  assets:
+    - assets/imut.PNG
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imut.PNG
